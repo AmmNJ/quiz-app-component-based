@@ -1,8 +1,4 @@
-# Quiz App
-
-## Template usage
-
-_Don't forget to update the author (and more) in the package.json_
+# Quiz App Component Based
 
 ## Installation
 

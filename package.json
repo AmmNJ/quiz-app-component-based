@@ -23,7 +23,7 @@
     "*.html": "htmlhint"
   },
   "keywords": [],
-  "author": "Lene Frei",
+  "author": "Nils Ammersken",
   "license": "ISC",
   "main": "index.js",
   "repository": {
