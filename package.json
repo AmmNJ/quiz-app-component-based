@@ -28,7 +28,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macfrei/quiz-app.git"
+    "url": "git+https://github.com/AmmNJ/quiz-app-component-based.git"
   },
   "bugs": {
     "url": "https://github.com/macfrei/quiz-app/issues"
