@@ -1,4 +1,4 @@
-import createElement from '../lib/createElement'
+import createElement from '../../lib/createElement'
 import './CreateForm.css'
 
 export default function CreateForm() {
@@ -11,12 +11,9 @@ export default function CreateForm() {
     </label>
     <label>
       Answer:
-      <input name="question" placeholder="It is ...!">
+      <input name="answer" placeholder="It is ...!">
     </label>
-    <label>
-      Submit:
       <button>Submit</button>
-    </label>
     `,
   })
   return el

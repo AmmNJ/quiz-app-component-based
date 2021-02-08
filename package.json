@@ -59,5 +59,8 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint": "^13.9.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
   }
 }

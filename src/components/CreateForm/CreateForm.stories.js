@@ -1,4 +1,4 @@
-import CreateForm from './CreateForm'
+import CreateForm from '.'
 
 export default {
   title: 'CreateForm',
