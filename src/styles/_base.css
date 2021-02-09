@@ -24,3 +24,11 @@ input,
 button {
   font-size: 1em;
 }
+
+main {
+  overflow-y: scroll;
+}
+
+[hidden] {
+  display: none !important;
+}
