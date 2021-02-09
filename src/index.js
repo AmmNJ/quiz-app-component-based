@@ -4,18 +4,14 @@ import Header from './components/Header'
 import Navigation from './components/Navigation'
 import createElement from './lib/createElement'
 
+const cards = []
+
 const navigation = Navigation(onNavigate)
 const form = CreateForm(onSubmit)
 
 const { el: headerEl } = Header('Quiz App', 'May the best win!')
 
-const homePage = createElement(
-  'main',
-  { className: 'HomePage', hidden: false },
-  Card('Foo bar', 'Baz bar!'),
-  Card('Foo bar', 'Baz bar!'),
-  Card('Foo bar', 'Baz bar!')
-)
+const homePage = createElement('main', { className: 'HomePage', hidden: false })
 
 const createPage = createElement(
   'main',
@@ -35,7 +31,16 @@ const grid = createElement(
 document.body.append(grid)
 
 function onSubmit(question, answer) {
-  homePage.append(Card(question, answer))
+  cards.push({ question, answer })
+  renderCards()
+}
+
+function renderCards() {
+  const cardElements = cards.map(({ question, answer }) =>
+    Card(question, answer)
+  )
+  homePage.innerHTML = ''
+  homePage.append(...cardElements)
 }
 
 function onNavigate(text) {
