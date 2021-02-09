@@ -9,7 +9,7 @@ const cards = []
 const navigation = Navigation(onNavigate)
 const form = CreateForm(onSubmit)
 
-const { el: headerEl } = Header('Quiz App', 'May the best win!')
+const { el: headerEl } = Header('Quiz App')
 
 const homePage = createElement('main', { className: 'HomePage', hidden: false })
 

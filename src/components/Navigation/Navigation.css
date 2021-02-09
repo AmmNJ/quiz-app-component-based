@@ -1,5 +1,6 @@
 .Navigation {
   display: grid;
+  place-items: center;
   gap: 1px;
   grid-template-columns: repeat(4, 1fr);
   height: 48px;

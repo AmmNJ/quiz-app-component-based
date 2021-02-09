@@ -5,4 +5,4 @@ export default {
   component: Header,
 }
 
-export const base = () => Header('hello', 'world').el
+export const base = () => Header('hello').el
